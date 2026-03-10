@@ -1,7 +1,7 @@
-name: Bug Report
-description: File a bug report related to the Steam release version of Pre-Fortress 2.
-title: "[Steam Release][Bug]: "
-labels: ["bug", "steam release"]
+name: Legacy Bug Report
+description: File a bug report related to the Legacy version of Pre-Fortress 2.
+title: "[Legacy][Bug]: "
+labels: ["bug", "legacy"]
 type: bug
 
 body:
