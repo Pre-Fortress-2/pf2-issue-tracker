@@ -54,7 +54,7 @@ body:
     attributes:
       label: Describe the bug.
       description: A clear and concise description of what the bug is. When reporting a bug it helpfuls to list out the steps it took to encounter the bug.
-      placeholder: There was a [problem] when doing [action] while on [map name] and playing [class].
+      placeholder: There was a [problem] when doing [action] while on [map name] and playing [class]. I am on version [number].
     validations:
       required: true
 
