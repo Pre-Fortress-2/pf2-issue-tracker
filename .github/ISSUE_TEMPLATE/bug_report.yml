@@ -14,26 +14,20 @@ body:
     id: operarting-system
     attributes:
       label: Operating System
-      description: What operating sytem are you on?
+      description: What operating sytem are you using?
       options:
         - Windows
         - Linux
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: distro
     attributes:
-      label: (LINUX ONLY) What distro are you using? 
-      placeholder: (e.g. Linux Mint 22.2, CachyOS Desktop 260308)
-    validations:
-      required: false
-
-  - type: input
-    id: proton
-    attributes:
-      label: (LINUX ONLY) What version of Proton are you using? 
-      placeholder: (e.g. Proton Experimental, GE-Proton10-32)
+      label: (LINUX ONLY) Please state your Distro and if you use Proton please state what version.
+      placeholder: |
+        Distro: (e.g. Linux Mint 22.2, CachyOS Desktop 260308)
+        Proton: (e.g. Proton Experimental, GE-Proton10-32)
     validations:
       required: false
 
@@ -42,10 +36,10 @@ body:
     attributes:
       label: What are your computer specs?
       placeholder: |
-        GPU: RTX2070 Super
-        CPU: AMD Ryzon 7800X3D
-        RAM: 32GB DDR5
-        Storage: 1TB NVMe SSD
+        GPU: (e.g. RTX2070 Super)
+        CPU: (e.g. AMD Ryzon 7800X3D)
+        RAM: (e.g. 32GB DDR5)
+        Storage: (e.g. 1TB NVMe SSD)
     validations:
       required: false
 
