@@ -1,7 +1,7 @@
-name: Steam Release Bug Report
-description: File a bug report related to the Steam release version of Pre-Fortress 2.
-title: "[Steam Release][Bug]: "
-labels: ["bug", "steam release"]
+name: Bug Report
+description: File a bug report for Pre-Fortress 2.
+title: "[Bug]: "
+labels: ["bug"]
 type: bug
 
 body:
@@ -48,6 +48,14 @@ body:
         Storage: 1TB NVMe SSD
     validations:
       required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: What version of PF2? The version number can be found on the bottom right section of the in-game menu.
+      placeholder: (e.g. 0.7.5, 0.8)
+    validations:
+      required: true
 
   - type: textarea
     id: what-happened
