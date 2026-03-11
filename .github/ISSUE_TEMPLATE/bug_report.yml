@@ -21,7 +21,7 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     id: distro
     attributes:
       label: (LINUX ONLY) Please state your Distro and if you use Proton please state what version.
