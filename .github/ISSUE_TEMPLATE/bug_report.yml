@@ -52,7 +52,8 @@ body:
   - type: input
     id: version
     attributes:
-      label: What version of PF2? The version number can be found on the bottom right section of the in-game menu.
+      label: What version of PF2?
+      description: The version number can be found on the bottom right section of the in-game menu.
       placeholder: (e.g. 0.7.5, 0.8)
     validations:
       required: true
