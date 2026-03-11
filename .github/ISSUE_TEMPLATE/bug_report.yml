@@ -26,8 +26,7 @@ body:
     attributes:
       label: (LINUX ONLY) Please state your Distro and if you use Proton please state what version.
       placeholder: |
-        Distro: (e.g. Linux Mint 22.2, CachyOS Desktop 260308)
-        Proton: (e.g. Proton Experimental, GE-Proton10-32)
+        Distro: (e.g. Linux Mint 22.2) Proton: (e.g. GE-Proton10-32)
     validations:
       required: false
 
