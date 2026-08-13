@@ -10,25 +10,18 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
 
-  - type: dropdown
+  - type: input
     id: operarting-system
     attributes:
       label: Operating System
       description: What operating sytem are you using?
-      options:
-        - Windows
-        - Linux
+      placeholder: |
+        OS: (e.g. Windows 11, Windows 10, Linux Mint 22.2, Bazzite 44.20260802)
+        
+        (Linux Only)
+        Proton: (e.g. GE-Proton10-32)
     validations:
       required: true
-
-  - type: input
-    id: distro
-    attributes:
-      label: (LINUX ONLY) Please state your Distro and if you use Proton please state what version.
-      placeholder: |
-        Distro: (e.g. Linux Mint 22.2) Proton: (e.g. GE-Proton10-32)
-    validations:
-      required: false
 
   - type: textarea
     id: pc-specs
